@@ -1,5 +1,5 @@
-# Via the installer
-laravel new links
+composer create-project laravel/laravel question1-app
 
-# Via composer
-composer create-project --prefer-dist laravel/laravel links 
+cd question1-app
+
+php artisan serve
